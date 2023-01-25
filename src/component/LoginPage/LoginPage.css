@@ -1,0 +1,38 @@
+.empty-div {
+    width: 50vw;
+}
+
+.loginPage-content {
+    max-width: 50vw;
+
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.loginPage-container {
+    display: flex;
+    /* flex-direction: column; */
+    /* align-items: flex-end; */
+}
+
+.input-container {
+    max-width: 55%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container > * {
+    margin: 0.5rem 0;
+}
+
+.form > button {
+    background: blue;
+    color: white;
+
+    padding: 0.5rem 1.2rem;
+
+    border: none;
+    border-radius: 0.25rem;
+}
